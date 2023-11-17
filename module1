@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Pricing Plans</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2vj1saT+3pEZJJB0q4CsR1MD9ln6Z36+pOwI8tT441+qr5eKpc3s" crossorigin="anonymous">
+  <style>
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    .plan {
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      padding: 20px;
+    }
+
+    .plan h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .plan p {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    .plan button {
+      margin-top: 10px;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        max-width: 720px;
+      }
+
+      .plan {
+        float: left;
+        width: 50%;
+        margin-bottom: 0;
+      }
+
+      .plan h2 {
+        font-size: 20px;
+      }
+
+      .plan p {
+        font-size: 14px;
+      }
+
+      .plan button {
+        width: 100%;
+      }
+
+      .know-more {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Choose Your Pricing Plan</h1>
+    <div class="pricing-plans">
+      <div class="plan">
+        <h2>New</h2>
+        <p>Starting + Statutory Fees</p>
+        <p>₹5998 All Inclusive</p>
+        <div class="features">
+          <ul>
+            <li>Limited Features</li>
+            <li>Ideal for Startups</li>
+            <li>Up to 10 Users</li>
+          </ul>
+        </div>
+        <button type="button" class="btn btn-primary know-more">Know More</button>
+      </div>
+
+      <div class="plan popular">
+        <h2>Private Limited</h2>
+        <p>Starting + Govt Fees</p>
+        <p>₹10998</p>
+        <div class="features">
+          <ul>
+            <li>Comprehensive Features</li>
+            <li>Suitable for Established Businesses</li>
+            <li>Up to 50 Users</li>
+          </ul>
+        </div>
+        <button type="button" class="btn btn-primary know-more">Know More</button>
+      </div>
+
+      <div class="plan">
+        <h2>Limited Liability</h2>
+        <p>Starting + Statutory Fees</p>
+        <p>₹11998</p>
+        <div class="features">
+          <ul>
